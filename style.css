@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logos{
+  color: black;
+  font-size: xx-large;
+}
+
+.nav{
+  /* color: rgb(65 127 189); */
+  color: red;
+  background-color: red;
+  
+  height: 80px;
+  width: 100%;
+} 
+
+.logoo{
+  color:blue;
+  margin-left: 10px;
+  font-size: 40px;
+  line-height: 80px;
+  padding: 0 px;
+  font-weight: bold;
+  
+}
+.Nav ul{
+  float: right;
+  margin-right: 10px;
+}
+.Nav{
+  /* background-color: rgb(198, 200, 202); */
+  background-color:lightblue;
+  height: 80px;
+  width: 100%;
+}
+.Nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+.Nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active, a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+
+.side-logo{
+display: inline-block;
+
+}
+.side-logo img{ 
+  height: 100px;
+  display: inline-block;
+ margin-top: 0px;
+
+
+}
+.every {
+  display: inline-block;
+  border-top-width: 0ch;
+  color: blue;
+  font-size: small;
+  vertical-align: top; 
+  white-space: pre-wrap; 
+  margin-top: -10px;
+  width: -20px;
+  
+}
+
+.every p {
+  margin-top: -30px; 
+  text-align: right;
+  font-size: 20px;
+}
+.Einformation {
+  position: absolute;
+  text-align: left;
+  color: gray;
+  display: inline-block;
+  list-style: none;
+  right: 250px;
+  margin-top:  35px;
+}
+.p.info2{
+  background: #1b9bff;
+}
+.Cinfo {
+  position: absolute;
+  text-align: left;
+  color:gray; 
+  display: inline-block;
+  list-style: none;
+  right: 80px;
+  margin-top:  35px;
+}
+.email-logo{
+  display: inline-block;
+}
+.email-logo img{
+  height: 30px;
+  right: 374px;
+  position: absolute;
+  margin-top: -70px;
+}
+.phone-logo{
+  display: inline-block;
+}
+.phone-logo img{
+  height: 24px;
+  right: 211px;
+  position: absolute;
+  margin-top: -67px;
+}
+
